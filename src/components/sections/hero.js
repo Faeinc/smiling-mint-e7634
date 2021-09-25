@@ -21,7 +21,7 @@ export default function Hero(props) {
                 </span>
               </h2>
             )}
-            {props.subtitle && <p className="text-base text-gray-700 md:text-lg">{props.subtitle}</p>}
+            {props.subtitle && <p className="text-base text-gray-200 md:text-lg">{props.subtitle}</p>}
           </div>
           {props.action && (
             <div>
