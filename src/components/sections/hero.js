@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import Bolt from '../svgs/bolt';
 import Dots from '../svgs/dots';
-import { Popover, Transition } from '@headlessui/react'
+//import { Popover, Transition } from '@headlessui/react'
 
 export default function Hero(props) {
   return (
