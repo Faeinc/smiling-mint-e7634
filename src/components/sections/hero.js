@@ -12,7 +12,7 @@ export default function Hero(props) {
               <Bolt size={10} />
             </div>
           </a>
-          <div className="max-w-xl mb-10 md:mx-auto sm:text-left lg:max-w-2xl md:mb-12">
+          <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
             {props.title && (
               <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
                 <span className="relative inline-block">
@@ -21,7 +21,7 @@ export default function Hero(props) {
                 </span>
               </h2>
             )}
-            {props.subtitle && <p className="text-base text-gray-300 md:text-lg">{props.subtitle}</p>}
+            {props.subtitle && <p className="text-base text-gray-00 md:text-lg">{props.subtitle}</p>}
           </div>
           {props.action && (
             <div>
