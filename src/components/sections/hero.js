@@ -8,7 +8,7 @@ export default function Hero(props) {
       <div className="max-w-xl sm:mx-auto lg:max-w-2xl">
         <div className="flex flex-col mb-16 sm:text-center sm:mb-0">
           <a href="/" className="mb-6 sm:mx-auto">
-            <div className="flex items-center justify-center w-12 h-12 rounded-full bg-indigo-50">
+            <div className="flex items-left justify-left w-12 h-12 rounded-full bg-indigo-50">
               <Bolt size={10} />
             </div>
           </a>
